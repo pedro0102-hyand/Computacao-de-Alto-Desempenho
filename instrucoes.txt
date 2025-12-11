@@ -1,0 +1,3 @@
+Para compilar o código -> mpicc game_of_life_mpi_report.c -o game_of_life_mpi_report
+
+Para executar variando o número de processos -> mpirun -np 4 ./game_of_life_mpi_report 1000 1000 200 (exemplo com 4 processos)
